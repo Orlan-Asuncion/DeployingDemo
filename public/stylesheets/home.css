@@ -8,8 +8,11 @@ body{
     padding-top: 40vh;
   }
   
-  #home-header h1 {
+  #home-header h1{
     color: #fff;
+  }
+  #home-header h3{
+    color:blue;
   }
   
   .slideshow { 
@@ -78,4 +81,4 @@ body{
   /* Older browser support - class added by modernizr */
   .no-cssanimations .slideshow li {
       opacity: 1;
-  } 
+  }
