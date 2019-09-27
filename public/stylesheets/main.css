@@ -38,6 +38,51 @@ h1{
     text-transform: uppercase;
     font-weight: 500;
 }
-footer{
+.media{
+    display: inline;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  address { 
+    display: block;
+    font-style: italic;
     text-align: center;
+  }
+  /* Style the container/contact section */
+  
+  /* Create two columns that float next to eachother */
+  .col-md-4{
+    float: left;
+    width: 30%;
+    margin-top: 1.66%;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.footer{
+    text-align: center;
+    padding: 10vh;
 }

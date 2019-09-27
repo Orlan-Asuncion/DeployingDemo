@@ -1,0 +1,85 @@
+<% include partials/header %>
+<h1>Contact Page</h1>
+
+<div class="container">
+    <div class="row mt-3 ">
+        <!-- Second column Contact Info: BEGIN -->
+        <div class="col-12 col-md-6">
+            <div class="card mt-3 shadow">
+                <div class="card-body">
+                    <div class="media">
+                        <div class="fa-layers fa-fw fa-2x mr-3">
+                            <i class="fas fa-circle text-primary"></i>
+                            <i class="fas fa-male text-white" data-fa-transform="shrink-5"></i>
+                        </div>
+                        <div class="media-body"><strong>
+                                Orlando C. Asuncion</strong>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="fa-layers fa-fw fa-2x mr-3">
+                            <i class="fas fa-circle text-primary"></i>
+                            <i class="fas fa-phone text-white" data-fa-transform="shrink-8"></i>
+                        </div>
+                        <ul class="media-body list-unstyled pb-3">
+                            <li><a href="tel:+12096249203"><strong>(209)624-9203</strong></a></li>
+                            <hr>
+                        </ul>
+                    </div>
+
+                    <div class="media">
+                        <div class="fa-layers fa-fw fa-2x mr-3">
+                            <i class="fas fa-circle text-primary"></i>
+                            <i class="fas fa-envelope text-white " data-fa-transform="shrink-8"></i>
+                        </div>
+                        <ul class="media-body list-unstyled pb-3">
+                            <li><a
+                                    href="mailto:oasuncionjr1961@gmail.com"><strong>oasuncionjr1961@gmail.com</strong></a>
+                            </li>
+                            <li><i class="fab fa-fw fa-linkedin text-muted"></i> <a
+                                    href="https://www.linkedin.com/"><strong>LinkedIn</strong></a>
+                            </li>
+                            <li><i class="fab fa-fw fa-slack text-muted"></i><a href="#"><strong>Slack</strong></a>
+                            </li>
+                            <li><i class="fa fa-file"></i> <a href="#"><strong>Resume</strong></a>
+                               <hr>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="media">
+                        <div class="fa-layers fa-fw fa-2x mr-3">
+                            <i class="fas fa-circle text-primary"></i>
+                            <i class="fas fa-home text-white" data-fa-transform="shrink-8"></i>
+                        </div>
+                        <div class="media-body">
+                            <address class="mb-0"><strong>
+                                    3150 Emerald Pointe Dr.<br>
+                                    Apt 202A <br>
+                                    Hollywood, Fl 33021<br>
+                                    United States</strong>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-6">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="subject">
+                <label for="message">Message</label>
+                <textarea id="subject" name="subject" placeholder="Message.." style="height:150px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</div>
+
+<% include partials/footer %>
