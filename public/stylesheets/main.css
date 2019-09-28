@@ -1,8 +1,9 @@
 body{
     padding: 0 auto;
-    background: #1FA2FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     box-sizing: border-box;
     font-family: Georgia, Times, "Times New Roman", serif; 
 } 
@@ -14,14 +15,18 @@ body{
     color:white;
     text-transform: uppercase;   
   }
-#image{
+#image img{
     position:relative;
-   padding: 0 auto;
+    padding: 0 auto;
+    border-radius: 50%;
+    z-index: 1;
+    width: 300px;
+    height: auto;
+    border: 2px solid blue;
 }
 
-img{
-    border:2px solid blue;
-}
+
+
 h4{
     text-align:center;
     text-transform: uppercase;
@@ -30,6 +35,7 @@ h4{
 }
 .content{
     padding: 10px;
+    
 
 }
 h1{
@@ -37,6 +43,7 @@ h1{
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
+    padding: 5vh;
 }
 .media{
     display: inline;
