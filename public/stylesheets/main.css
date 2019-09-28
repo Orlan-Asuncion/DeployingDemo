@@ -1,8 +1,8 @@
 body{
     padding: 0 auto;
-    background: #00c6ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #5433FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     box-sizing: border-box;
     font-family: Georgia, Times, "Times New Roman", serif; 
 } 
@@ -13,6 +13,9 @@ body{
     padding-top: 10px;
     color:white;
     text-transform: uppercase;   
+  }
+  .thumbnail{
+    border: 2px solid blue;
   }
 #image img{
     position:relative;
@@ -29,6 +32,10 @@ h4{
     color:blue;
     font-weight: 500;
 }
+h3{
+  text-align: center;
+  color: blue;
+}
 .content{
     padding: 10px;    
 
@@ -40,9 +47,9 @@ h1{
     font-weight: 500;
     padding: 5vh;
 }
-media-home{
+.media{
     display: inline;
-   color:black;
+  
 }
 input[type=text], select, textarea {
     width: 100%;
@@ -87,5 +94,6 @@ input[type=text], select, textarea {
   }
 .footer{
     text-align: center;
+    font-size: 20px;
     padding: 10vh;
 }
