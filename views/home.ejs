@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Portfilio</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="/stylesheets/home.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript" async></script>
-    </head>
-    <body>
-    
+
+<head>
+    <title>Portfilio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/home.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript" async></script>
+</head>
+
+<body>
+
     <div id="home-header">
-     <label id="greetings"></label>
-     <h1>Orlando C. Asuncion Jr.</h1>
-     <h3> Execute With Quality And Exellence, Get It Done Ahead Of Time, One Step Ahead</h3>
-		<a href="/about" class="btn btn-lg btn-success">Go to my About page</a>
+        <label id="greetings"></label>
+        <h1>Orlando C. Asuncion Jr.</h1>
+        <h3> Execute With Quality And Exellence, Get It Done Ahead Of Time, One Step Ahead</h3>
+        <a href="/about" class="btn btn-lg btn-success">Go to my About page</a>
     </div>
-    
+
     <ul class="slideshow">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
     </ul>
     <script>
-      var myDate = new Date();
-      var hrs = myDate.getHours();
-  
-      var greet;
-  
-      if (hrs < 12)
-          greet = 'Good Morning';
-      else if (hrs >= 12 && hrs <= 17)
-          greet = 'Good Afternoon';
-      else if (hrs >= 17 && hrs <= 24)
-          greet = 'Good Evening';
-  
-      document.getElementById('greetings').innerHTML =
-          '<b>' + greet + '</b> Welcome to my Portfolio';
-  </script> 
+        var myDate = new Date();
+        var hrs = myDate.getHours();
 
-<% include partials/footer %>
+        var greet;
+
+        if (hrs < 12)
+            greet = 'Good Morning';
+        else if (hrs >= 12 && hrs <= 17)
+            greet = 'Good Afternoon';
+        else if (hrs >= 19 && hrs <= 24)
+            greet = 'Good Evening';
+
+        document.getElementById('greetings').innerHTML =
+            '<b>' + greet + '</b> Welcome to my Portfolio';
+    </script>
+
+    <% include partials/footer %>
